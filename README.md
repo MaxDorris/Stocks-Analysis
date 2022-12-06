@@ -193,7 +193,7 @@ The 2018 Analysis shows that the best ROIs came from **ENPH** and **RUN** for th
 The 2017 runtimes for the original and refactored scripts are shown below:
 
 <p align="center">
-  <img width="500" height="450" src=Resources/runtime_2017.png><img width="500" height="450" src=Resources/refactored_runtime_2017.png>
+  <img width="250" height="225" src=Resources/runtime_2017.png><img width="250" height="225" src=Resources/refactored_runtime_2017.png>
 </p>
 
 The refactored runtime (right) was 470% faster than the original for 2017.
@@ -202,7 +202,7 @@ The refactored runtime (right) was 470% faster than the original for 2017.
 The 2018 runtimes for the original and refactored scripts are shown below:
 
 <p align="center">
-  <img width="500" height="450" src=Resources/runtime_2018.png><img width="500" height="450" src=Resources/refactored_runtime_2018.png>
+  <img width="250" height="225" src=Resources/runtime_2018.png><img width="250" height="225" src=Resources/refactored_runtime_2018.png>
 </p>
 
 The refactored runtime (right) was 460% faster than the original for 2018.
