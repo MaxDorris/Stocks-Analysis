@@ -169,18 +169,21 @@ Next i
 ## Results
 
 ### ROI by Year
-
 #### 2017 Analysis
 The resulting table after selecting 2017 is shown below:
 
-![Figure 1: 2017 Analysis](Resources/VBA_Challenge_2017.png)
+<p align="center">
+  <img width="500" height="450" src=Resources/VBA_Challenge_2017.png>
+</p>
 
 The 2017 Analysis shows that the best ROIs came from **DQ** and **SEDG** for this year, and the worst ROI came from **TERP**.
 
 #### 2018 Analysis
 The resulting table after selecting 2018 is shown below:
 
-![Figure 1: 2017 Analysis](Resources/VBA_Challenge_2017.png)
+<p align="center">
+  <img width="500" height="450" src=Resources/VBA_Challenge_2018.png>
+</p>
 
 The 2018 Analysis shows that the best ROIs came from **ENPH** and **RUN** for this year, and the worst ROI came from **DQ**.
 
@@ -189,22 +192,26 @@ The 2018 Analysis shows that the best ROIs came from **ENPH** and **RUN** for th
 #### 2017 Runtimes
 The 2017 runtimes for the original and refactored scripts are shown below:
 
-![Figure 1: 2017 Analysis](Resources/VBA_Challenge_2017.png) ![Figure 1: 2017 Analysis](Resources/VBA_Challenge_2017.png)
+<p align="center">
+  <img width="500" height="450" src=Resources/runtime_2017.png><img width="500" height="450" src=Resources/refactored_runtime_2017.png>
+</p>
 
-The refactored runtime was ___% faster than the original for 2017.
+The refactored runtime was 470% faster than the original for 2017.
 
 #### 2018 Runtimes
 The 2018 runtimes for the original and refactored scripts are shown below:
 
-![Figure 1: 2017 Analysis](Resources/Runtime_2017.png) ![Figure 1: 2017 Analysis](Resources/Runtime_2017.png)
+<p align="center">
+  <img width="500" height="450" src=Resources/runtime_2018.png><img width="500" height="450" src=Resources/refactored_runtime_2018.png>
+</p>
 
-The refactored runtime was ___% faster than the original for 2018.
+The refactored runtime was 460% faster than the original for 2018.
 
 
 ## Conclusion
 
 ### Advantages of Refactoring
-Runtime and memory usage can often be reduced significantly when a script is refactored. The speed of this VBA script, for instance, increased by ___% Refactoring can also improve optimzation for larger datasets.
+Runtime and memory usage can often be reduced significantly when a script is refactored. The speed of this VBA script, for instance, was nearly 5x faster than the original. Refactoring can also improve optimization for larger datasets because it can reduce the upper bound for both runtime and/or memory space borrowed as input size increases.
 
 ### Disadvantages of Refactoring
 Refactoring a script requires a deeper understanding of the program and dataset. This alone can introduce human error / bugs to the script. When I wrote the first script (not shown in this report), I had the idea of using arrays to reduce the amount of switching back and forth between sheets (.Activate function). However, I did not know exactly how to do this in visual basic yet.
