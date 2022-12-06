@@ -168,16 +168,43 @@ Next i
 
 ## Results
 
-### Script Outputs
-The resulting table for selecting 2017 is shown below:
+### ROI by Year
 
+#### 2017 Analysis
+The resulting table after selecting 2017 is shown below:
 
+![Figure 1: 2017 Analysis](Resources/VBA_Challenge_2017.png)
+
+The 2017 Analysis shows that the best ROIs came from **DQ** and **SEDG** for this year, and the worst ROI came from **TERP**.
+
+#### 2018 Analysis
+The resulting table after selecting 2018 is shown below:
+
+![Figure 1: 2017 Analysis](Resources/VBA_Challenge_2017.png)
+
+The 2018 Analysis shows that the best ROIs came from **ENPH** and **RUN** for this year, and the worst ROI came from **DQ**.
+
+### Runtime Before and After Refactoring
+
+#### 2017 Runtimes
+The 2017 runtimes for the original and refactored scripts are shown below:
+
+![Figure 1: 2017 Analysis](Resources/VBA_Challenge_2017.png) ![Figure 1: 2017 Analysis](Resources/VBA_Challenge_2017.png)
+
+The refactored runtime was ___% faster than the original for 2017.
+
+#### 2018 Runtimes
+The 2018 runtimes for the original and refactored scripts are shown below:
+
+![Figure 1: 2017 Analysis](Resources/Runtime_2017.png) ![Figure 1: 2017 Analysis](Resources/Runtime_2017.png)
+
+The refactored runtime was ___% faster than the original for 2018.
 
 
 ## Conclusion
 
 ### Advantages of Refactoring
-Runtime and memory usage can often be reduced significantly when a script is refactored. The speed of this VBA script, for instance, increased by ... Refactoring can also improve optimzation for larger datasets.
+Runtime and memory usage can often be reduced significantly when a script is refactored. The speed of this VBA script, for instance, increased by ___% Refactoring can also improve optimzation for larger datasets.
 
 ### Disadvantages of Refactoring
 Refactoring a script requires a deeper understanding of the program and dataset. This alone can introduce human error / bugs to the script. When I wrote the first script (not shown in this report), I had the idea of using arrays to reduce the amount of switching back and forth between sheets (.Activate function). However, I did not know exactly how to do this in visual basic yet.
