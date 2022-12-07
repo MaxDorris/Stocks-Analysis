@@ -31,6 +31,8 @@ MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & 
 First, the script would ask the user which year (sheet) to pull data from. After this input, the new sheet would be populated with a title based on the chosen year, as well as headers for **Ticker ID**, **Total Daily Volume**, and **Return**. An array, **tickers**, was then created to store all of the unique ticker names I would use to categorize the data.
 
 ```
+yearValue = InputBox("What year would you like to run the analysis on?")
+
 Worksheets("All Stocks Analysis").Activate
     
 Range("A1").Value = "All Stocks (" + yearValue + ")"
